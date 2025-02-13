@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alatsi&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "JejuMyeongjo";
+  src: url("./fonts/JejuMyeongjo.ttf.woff") format("truetype");
+}
+
+body {
+  padding: 112px 0;
+  /* background-color: #02191d; */
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background: linear-gradient(0deg, #02191d 0%, #02191d 100%),
+    radial-gradient(
+      152.84% 95.2% at -576.37% 1937.13%,
+      rgba(35.85, 160.11, 181.49, 0.2) 0%,
+      rgba(36, 160, 181, 0) 100%
+    );
+}

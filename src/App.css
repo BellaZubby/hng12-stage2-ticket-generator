@@ -1,0 +1,29 @@
+.tech_background {
+  background: linear-gradient(
+      0deg,
+      rgba(10, 12, 17, 0.1) 0%,
+      rgba(10, 12, 17, 0.1) 100%
+    ),
+    radial-gradient(
+      47.89% 88.89% at 40.25% 644.8%,
+      rgba(35.85, 160.11, 181.49, 0.2) 0%,
+      rgba(36, 160, 181, 0) 100%
+    );
+}
+.icon {
+  fill: #ffffff;
+  stroke: green;
+  stroke-width: 3;
+}
+.input-file {
+  visibility: hidden;
+}
+.detail_input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+[role="alert"] {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
