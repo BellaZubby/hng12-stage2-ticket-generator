@@ -38,15 +38,15 @@ const AttendeeDetail = () => {
 
   const formValidate = () => {
     let formErrors = {};
-    if (!fullName.trim()) {
+    if (!fullName) {
       formErrors.fullName = "Full name is required";
     }
-    if (!email.trim()) {
+    if (!email) {
       formErrors.email = "Email is required";
     } else if (!emailValidation(email)) {
       formErrors.email = "Invalid email";
     }
-    if (!photo.trim()) {
+    if (!photo) {
       formErrors.photo = "Photo URL is required";
     }
     return formErrors;
